@@ -65,6 +65,7 @@ The script uses parallel processing to generate GIFs quickly, which can be very 
 Example: In the script, you can adjust the intensity by modifying this line:
 ```python
 MAX_WORKERS = os.cpu_count()  # This uses all available CPU cores
+```
 
 ## Requirements
 

@@ -57,6 +57,11 @@ A Python script to generate GIFs from video subtitles. For each subtitle line, t
     - `FONTSIZE`: Size of the subtitle font in the GIF (default: 24)
     - `OUTLINE`: Outline thickness of the subtitle text (default: 2)
 
+- Skip Patterns: By default, the script will skip subtitle lines based on patterns such as:
+  - Subtitles starting with ellipses (...).
+  - Subtitles ending with commas, colons, or lowercase letters.  
+If you want to process all subtitles and disable skipping, set SKIP_ENABLED = False in the script configuration.
+
 ### Controlling Resource Usage
 
 The script uses parallel processing to generate GIFs quickly, which can be very CPU-intensive. You can control how many CPU cores are used by adjusting the `MAX_WORKERS` setting in the script.

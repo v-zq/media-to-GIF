@@ -21,7 +21,7 @@ A Python script to generate GIFs from video subtitles. For each subtitle line, t
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/v-zq/media-to-gif-converter.git
+    git clone https://github.com/v-zq/media-to-gif.git
     cd media-to-gif-converter
     ```
 

@@ -75,7 +75,6 @@ MAX_WORKERS = os.cpu_count()  # This uses all available CPU cores
 ## Notes
 - **Same-name matching**: In the root `input/` directory, videos and subtitles should have matching filenames (except for the extensions) for proper pairing.
 - **Subfolder matching**: Videos and subtitles placed in the same subfolder inside `input/` will be paired, even if they have different names.
-- Subtitle lines that match skip patterns (such as starting with `...`) can be excluded or customized.
 
 ## License
 

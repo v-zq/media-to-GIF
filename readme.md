@@ -60,6 +60,7 @@ A Python script to generate GIFs from video subtitles. For each subtitle line, t
 - Skip Patterns: By default, the script will skip subtitle lines based on patterns such as:
   - Subtitles starting with ellipses (...).
   - Subtitles ending with commas, colons, or lowercase letters.  
+
 If you want to process all subtitles and disable skipping, set SKIP_ENABLED = False in the script configuration.
 
 ### Controlling Resource Usage

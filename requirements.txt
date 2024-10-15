@@ -1,0 +1,3 @@
+pysrt
+python-slugify
+tqdm

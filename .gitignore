@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+env/
+venv/
+
+# Output directories
+gifs/
+input/
+
+# Temporary subtitle files
+temp_sub_*.srt
+
+# Log files
+*.log
+
+# Metadata files
+metadata.json

@@ -36,7 +36,7 @@ A Python script to generate GIFs from video subtitles. For each subtitle line, t
     - **For subfolder matching**:
       - Place your video and subtitle files in subfolders inside the `input/` directory. Files in the same subfolder will be paired, even if they have different names.
     - Supported video formats: `.mp4`, `.mkv`, `.avi`, `.mov`.
-    - Supported subtitle formats: `.srt`, `.sub`, `.ass`.
+    - Supported subtitle formats: `.srt`, `.sub`, `.ass`. (hehe)
 
 4. **Run the script**:
     ```bash
@@ -84,5 +84,3 @@ This project is licensed under The Unlicense - see the [The Unlicense](LICENSE) 
 ## Acknowledgment
 
 This project's code was initially based on work from [https://github.com/dunn/videos-to-gif/tree/trunk](https://github.com/dunn/videos-to-gif/tree/trunk).
-
-=

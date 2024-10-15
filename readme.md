@@ -2,6 +2,8 @@
 
 A Python script to generate GIFs from video subtitles. For each subtitle line, the script creates a GIF with the respective caption displayed.
 
+![Image](https://cdn.vzq.wtf/vzq.wtf/main.gif)
+
 ## Features
 - Converts videos into GIFs based on subtitle files.
 - Automatically escapes special characters for FFmpeg.

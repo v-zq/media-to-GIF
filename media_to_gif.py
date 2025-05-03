@@ -85,8 +85,8 @@ def make_gif(args):
     start_str = str(start).replace(',', '.')
     duration_str = str(end - start).replace(',', '.')
 
-    escaped_text = escape_for_ffmpeg(text)
-
+    escaped_text = text
+    
     temp_sub_file = os.path.join(output_dir, f"temp_sub_{i}.srt")
     try:
         with open(temp_sub_file, 'w', encoding='utf-8') as f:
